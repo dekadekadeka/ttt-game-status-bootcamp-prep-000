@@ -1,4 +1,3 @@
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 # Helper Method
 def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
@@ -22,4 +21,3 @@ def won?(board)
     position_taken?(board, win_combo[0])
   end
 end
-puts won?(board)
