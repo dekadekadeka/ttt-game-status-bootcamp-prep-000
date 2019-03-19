@@ -37,6 +37,6 @@ def over?(board)
 end
 
 def winner(board)
-  won?(token) == "X" || won?(token) == "O"
+  if win_combo == board
 end
   
