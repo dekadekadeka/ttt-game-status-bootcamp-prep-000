@@ -37,6 +37,6 @@ def over?(board)
 end
 
 def winner?(board)
-  won?
+  won?(token) == "X" || won?(token) == "O"
 end
   
